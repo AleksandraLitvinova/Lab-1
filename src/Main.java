@@ -4,13 +4,16 @@ public class Main {
         Exception2.Exc2();
         try {
             Exception3.Exc3(9);
-        } catch (Exception e) {
+        } catch (ArithmeticException e) {
+            System.out.println("Исключение: " + e);
+        }catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Исключение: " + e);
         }
         try {
+            Exception4.my_exc(2);
             Exception4.my_exc(7);
         }catch (Exception4.MyException e) {
-            System.out.println("Исключение: " + e);
+            System.out.println("Перехвачено исключение: " + e);
         }
     }
 }
