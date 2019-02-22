@@ -4,7 +4,7 @@ public class Exception2 {
             int[] c = new int[5];
             c[20] = 70;
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("РћС€РёР±РєР° РёРЅРґРµРєСЃР°С†РёРё РІРЅРµ РіСЂР°РЅРёС† РјР°СЃСЃРёРІР°: " + e);
+            System.out.println("Ошибка индексации вне границ массива: " + e);
         }
     }
 }

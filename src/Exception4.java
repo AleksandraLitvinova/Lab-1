@@ -15,6 +15,6 @@ public class Exception4{
         System.out.println("Вызван метод my_exc (" + a + ")");
         if (a >= 5)
             throw new MyException(a);
-        System.out.println("Норм");
+        System.out.println("Нормально");
     }
 }

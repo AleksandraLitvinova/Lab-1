@@ -4,7 +4,7 @@ public class Exception1 {
             int a = 0;
             int b = 36 / a;
         }catch (ArithmeticException e){
-            System.out.println("Π”ΠµΠ»ΠµΠ½ΠΈΠµ Π½Π° Π½ΡƒΠ»Ρ: "+e);
+            System.out.println("Δελενθε νΰ νσλό: "+e);
         }
     }
 }

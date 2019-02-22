@@ -1,8 +1,8 @@
 public class Exception3 {
     public static void Exc3 (int a) throws ArithmeticException, ArrayIndexOutOfBoundsException{
         if(a >= 0 && a < 10)
-            throw new ArithmeticException("Ð˜ÑÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ â„–1 " + a);
+            throw new ArithmeticException("Èñêëþ÷åíèå ¹1: " + "["+a+"]");
         if(a >= 10 && a < 15)
-            throw new ArrayIndexOutOfBoundsException("Ð˜ÑÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ â„–2 " + a);
+            throw new ArrayIndexOutOfBoundsException("Èñêëþ÷åíèå ¹2: " + "["+a+"]");
     }
 }
